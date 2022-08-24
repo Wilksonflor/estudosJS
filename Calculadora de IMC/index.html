@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <title>Calculadora IMC</title>
+  </head>
+  <body>
+    <main>
+      <div class="infoLeft">
+        <h2 id="classificacao">Veja a classificação</h2>
+        <img
+          src="assets/img/imc.jpg"
+          alt="Tabela sobre obesidade"
+          id="tabela"
+        />
+      </div>
+      <div class="cardCalculator">
+        <h2>Preencha os campos</h2>
+        <div class="cardInput">
+          <input type="text" id="nome" placeholder="Nome" />
+
+          <input type="number" id="altura" placeholder="Altura(m)" />
+
+          <input type="number" id="peso" placeholder="Peso(kg)" />
+
+          <button type="submit" id="calcular" onclick="imc()">Calcular</button>
+        </div>
+        <div class="resultado"><p id="resultado"></p></div>
+      </div>
+    </main>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
