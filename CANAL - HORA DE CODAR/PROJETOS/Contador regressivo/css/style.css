@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.timer-container{
+background-color: #00f0105d;
+width: 100%;
+}
+#timer{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 7rem;
+height: 100vh;
+margin-inline: auto;
+display: flex;
+align-items: center;
+justify-content: center;
+box-shadow: 0px 0px 0px 30px hwb(124 0% 6% / 0.365);
+}
